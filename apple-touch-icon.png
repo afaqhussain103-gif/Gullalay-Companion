@@ -1,0 +1,48 @@
+# 🌸 Gullalay's Companion v3.0
+
+## New in v3.0
+- AI renamed to **Wyar** 💬
+- **Notes Keeper** — write notes with color coding, search, timestamps, 2-column layout
+- **Private Vault** — password-protected photo storage locked with SHA-256 hashed password
+- Tab bar updated: Home | Track | Wyar | Notes | Vault | More
+
+## Folder structure
+```
+gullalay_v6/
+├── index.html       ← Complete app (single file)
+├── manifest.json    ← PWA config
+├── sw.js            ← Service worker
+└── icons/           ← Add your icon images here
+    ├── icon-120.png
+    ├── icon-152.png
+    ├── icon-167.png
+    ├── icon-180.png
+    ├── icon-192.png
+    └── icon-512.png
+```
+
+## Getting icons
+1. Go to favicon.io or realfavicongenerator.net
+2. Upload a square image → download all sizes
+3. Put them in the icons/ folder with the names above
+
+## Publish on Netlify (free, 2 mins)
+1. netlify.com → sign up free
+2. "Add new site" → "Deploy manually"  
+3. Drag the entire gullalay_v6 folder → done!
+4. Settings → Domain → rename to gullalay.netlify.app
+
+## Push updates
+**Easy:** Netlify → Deploys tab → drag updated folder again (~30 sec)
+**Better (auto):** Connect to GitHub → every push auto-deploys
+
+## Install on iPhone
+1. Open URL in Safari
+2. Share → Add to Home Screen
+
+## Wyar AI (Gemini)
+1. aistudio.google.com/apikey → sign in → Create API key
+2. Copy key (AIza...) → paste in app's Wyar chat tab
+3. Free forever, no credit card needed
+
+Made with love 💙 — Afaq
